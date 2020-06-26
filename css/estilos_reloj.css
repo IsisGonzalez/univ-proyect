@@ -1,0 +1,46 @@
+/*reloj*/
+
+.warp {
+	width: 90%;
+	max-width: 1000px;
+}
+.widget {
+	width: 180px;
+	margin: 0;
+	padding-top: 150px;
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+.fecha {
+	font-family: 'Arial';
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	margin-bottom: 0.3125rem;
+	background: #000000;
+	padding: 20px;
+	width: 100%;
+}
+.reloj {
+	font-family: 'Arial';
+	width: 100%;
+	padding: 20px;
+	font-size: 2em;
+	margin-bottom: 0.3125rem;
+	text-align: center;
+	color: #ffffff;
+	background: #000000;
+}
+.reloj .caja-segundos {
+	display: inline-block;
+}
+.reloj .segundos {
+	font-size: 1rem;
+	display: block;
+}
+.reloj .ampm {
+	font-size: 1rem;
+	display: block;
+}

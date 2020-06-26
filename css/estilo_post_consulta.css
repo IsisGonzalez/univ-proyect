@@ -1,0 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background:url(../grupo11/imag/tenis19.jpg) no-repeat fixed center center #ccc;
+	background-size:cover; 
+}

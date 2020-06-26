@@ -1,0 +1,30 @@
+/*redsocial*/
+
+.social {
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
+	color:#ffffff;
+}
+.social ul {
+	list-style: none;
+}
+.social ul li a {
+	display: inline-block;
+	color: #ffffff;
+	background: #000000;
+	padding: 20px 15px;
+	text-decoration: none;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+.social ul li a.icon-facebook2 {background: #3b5998;}
+.social ul li a.icon-twitter2 {background: #00abf0;}
+.social ul li a.icon-mail {background: #666666;}
+
+.social ul li a:hover {
+	padding: 20px 40px;
+	background: #000000;
+}

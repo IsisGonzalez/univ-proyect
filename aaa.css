@@ -1,0 +1,251 @@
+/*colocar el margen desde cero*/
+*{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+
+/*Encabezado*/
+body {
+	background:url(../grupo11/imag/tenis19.jpg) no-repeat fixed center center #ccc;
+	background-size:cover; 
+}
+
+
+/*cabecera*/
+header{
+	margin-top: 10px;
+	width:100%;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/*navegadores*/
+nav {
+	top: -20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 20px auto;
+	width: 90%;
+	max-width: 1300px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav > ul {
+	display: table;
+	width: 100%;
+	background: #000;
+	position: relative;
+}
+
+nav > ul li {
+	display: table-cell;
+}
+/*sub-menu*/
+
+nav > ul > li:hover > ul {
+	display: block;
+	height: 100%;
+	}
+
+nav > ul > li > ul {
+	display: block;
+	position: absolute;
+	background: #000;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height: 0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a {
+	color:#fff;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+nav > ul > li > ul > li a:hover {
+	background: #5da5a2;
+}
+
+nav > ul> li > a span {
+	background: #174459;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left:0;
+	position: absolute;
+	top: -56px;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease; 
+}
+
+
+/*colores para los iconos deslizabes*/
+nav > ul> li > a span .icon {
+	display: block;
+	line-height: 60px;
+}
+
+nav > ul > li > a:hover > span {
+	top: 0;
+}
+
+nav ul li a .primero {
+	background: #0e5061;
+}
+
+nav ul li a .segundo {
+	background: #5da5a2;
+}
+
+nav ul li a .tercero {
+	background: #f25724;
+}
+
+nav ul li a .cuarto {
+	background: #773FDE;
+}
+
+nav ul li a .quinto {
+	background: #37a4d9;
+}
+
+nav ul li a .sexto {
+	background: #32ECAB;
+}
+
+
+/*contenedor principal*/
+.background {
+	width: 900px;
+	height: 500px;
+	margin: 220px;
+	margin-right: 1000px;
+	margin-top: 5px;
+	float: center;
+	text-align: justify;
+	color: #fff;
+	font-family: 'Nunito', sans-serif, bold;
+	background: #000 transparent;
+	position: center;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+}
+
+
+p {
+	margin: 0 30px -10px 30px;
+}
+/*reloj*/
+
+.warp {
+	width: 90%;
+	max-width: 1000px;
+}
+.widget {
+	width: 180px;
+	margin: -300px 0 0 500px;
+	padding-top: 1500px;
+
+}
+.widget p {
+	display: inline-block;
+	line-height: 1em;
+}
+.fecha {
+	font-family: 'Arial';
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	margin-bottom: 0.3125rem;
+	background: #000000;
+	padding: 20px;
+	width: 100%;
+}
+.reloj {
+	font-family: 'Arial';
+	width: 100%;
+	padding: 20px;
+	font-size: 2em;
+	margin-bottom: 0.3125rem;
+	text-align: center;
+	color: #ffffff;
+	background: #000000;
+}
+.reloj .caja-segundos {
+	display: inline-block;
+}
+.reloj .segundos {
+	font-size: 1rem;
+	display: block;
+}
+.reloj .ampm {
+	font-size: 1rem;
+	display: block;
+}
+
+/*pie de pagina*/ 
+footer {
+	margin: 80px;
+	padding: 20px;
+	color: #000000;
+	margin-top: 20px;
+	text-align: center;
+	background:url(../grupo11/imag/grama.jpg) no-repeat fixed center center #ccc;
+	background-size:cover; 
+}
+
+.info {
+	width: 900px;
+	height: 5px;
+	margin: 20px;
+	margin-right: 1000px;
+	margin-top: 5px;
+	float: center;
+	text-align: justify;
+	color: #fff;
+	font-family: 'Nunito', sans-serif, bold;
+	background: #000 transparent;
+	position: center;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;	
+}
+
+.info2 {
+	width: 20px;
+	height: 5px;
+	margin: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: center;
+	text-align: justify;
+	color: #fff;
+	font-family: 'Nunito', sans-serif, bold;
+	background: #000 transparent;
+	position: center;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}

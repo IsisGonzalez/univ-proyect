@@ -1,0 +1,58 @@
+/*paginacion*/
+
+.paginacion {
+	margin-top: 100px;
+}
+.paginacion ul {
+	list-style: none;
+	text-align: center;
+}
+.paginacion ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.paginacion ul li a {
+	display: block;
+	padding: 10px 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background: #000000;
+	text-decoration: none;
+	float: center;
+
+
+}
+.paginacion ul li a:hover {
+	background: #ffffff;
+	color:#000000;
+}
+.paginacion ul li a.active {
+	background: #000000;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+
+.paginacion .prim {
+	background: #0e5061;
+}
+
+.paginacion .segu {
+	background: #5da5a2;
+}
+
+.paginacion .ter {
+	background: #f25724;
+}
+
+.paginacion .cua {
+	background: #773FDE;
+}
+
+.paginacion .qui {
+	background: #37a4d9;
+}
+
+.paginacion .sex {
+	background: #32ECAB;
+}
